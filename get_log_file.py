@@ -101,7 +101,7 @@ class HandleRemoteFile():
                 ( pem_arg, self.ssh_no_check, self.remote_user, self.remote_ip, remote_file, self.local_path, \
                 pem_arg, self.ssh_no_check, self.remote_user, self.remote_ip, remote_file, self.success_flag, )
         else:
-            cmd_scp = """sudo cp %s %s && sudo rm '%s' && echo %s" """ % \
+            cmd_scp = """sudo cp %s %s && sudo rm '%s' && echo %s """ % \
                 (remote_file, self.local_path, remote_file, self.success_flag)
         # a = getstatusoutput( cmd_scp )
         a = exec_script( cmd_scp, t_out )
