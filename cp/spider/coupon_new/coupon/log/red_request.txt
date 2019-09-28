@@ -1,4 +1,0 @@
-http%3AClickInfo
-Missing scheme in request url: http%3AClickInfo
-http%3AClickInfo
-Missing scheme in request url: http%3AClickInfo
