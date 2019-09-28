@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "delete_files.py", line 65, in <module>
+    gci( src_dir, recursion )
+  File "delete_files.py", line 44, in gci
+    parents = os.listdir(src_dir)
+OSError: [Errno 2] No such file or directory: '/disk1/data/webpage'

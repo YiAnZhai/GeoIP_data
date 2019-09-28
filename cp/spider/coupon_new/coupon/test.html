@@ -1,0 +1,87 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+
+
+
+
+
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" data-placeholder-focus="false">
+<head>
+<meta http-equiv="pragma" content="no-cache">
+<meta http-equiv="cache-control" content="no-cache">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+
+
+
+<title>Rakuten LinkShare</title>
+<link href="/sso/css/sso.css" type="text/css" rel="stylesheet">
+<link rel="icon" href="/sso/favicon.ico" type="image/x-icon" />
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="/sso/js/jquery.placeholder.js"></script>
+
+<script type="text/javascript">
+			//Invoke placeholder
+			$(function() {$('input').placeholder();});   
+			//Check for IE9 or less
+			var div = document.createElement("div");
+			div.innerHTML = "<!--[if lte IE 9]><i></i><![endif]-->";
+			var isIeLessThan9 = (div.getElementsByTagName("i").length == 1);
+			//Set Field Focus (except IE9 or less)
+            function setProperInputFocus() {
+                var oUsername = document.getElementById("username");
+                if(!isIeLessThan9){
+					if(oUsername.value.length === 0) {
+						oUsername.focus();
+					} else {
+						document.getElementById("password").focus();
+					}
+				}
+            }
+</script>
+</head>
+<body onload="setProperInputFocus()">
+	<div style="height: 12px">
+		<hr style="border: 0; height: 0; border-top: 12px solid rgb(0, 0, 0);">            
+	</div>
+
+	<div class="form_container">
+    	<div style="text-align:center; margin:30px;">
+			<a href="http://marketing.rakuten.com/affiliate-marketing/"><img src="/sso/images/logo.gif" alt="Rakuten Affiliate Network" border="0"></a>
+		</div>
+
+		<p />
+		<form id="fm1" action="/sso/login" method="post">
+			<input type="hidden" name="lt" value="" />
+			<input type="hidden" name="execution" value="e1s1" />
+			<input type="hidden" name="_eventId" value="submit" />
+			<div class="title_text" style="margin: 22px 0px">
+				<label class="title_text">Log In Successful</label>
+			</div>
+			<div class="msg_text" style="margin: 22px 0px">
+				<label class="msg_text">You have successfully logged into Rakuten LinkShare</label>
+			</div>
+			<div style="padding: 30px 0px 0px 0px; position: relative;">
+				
+			</div>
+		</form>
+    </div>
+
+    <!--// FOOTER AREA //-->
+    <div id="footerSignup" class="footerSignup">
+      <a href="http://marketing.rakuten.com/who-we-are" target="_blank" >
+        About Us
+      </a>&nbsp;|&nbsp;<a href="http://marketing.rakuten.com/affiliate-privacy-policy" target="_blank" >
+        Privacy
+      </a>&nbsp;|&nbsp;<a href="http://marketing.rakuten.com/intellectual-property-policy" target="_blank" >
+        Intellectual Property
+      </a><br/>
+      &#169;2016<label style="padding-left:2px;">Rakuten Marketing LLC. All rights reserved.</label>
+      </div>
+    <!--// END FOOTER AREA //-->
+
+  </body>
+</html>

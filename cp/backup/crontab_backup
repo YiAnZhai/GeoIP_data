@@ -1,0 +1,6 @@
+@reboot cd /home/moma/Documents/data_mining/twitter/get_coupon_keywords_common;python run_coupon.py
+
+
+01 */12 * * * export PYTHONIOENCODING=utf8;export PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games;cd /home/moma/Documents/project_twitter/coupon;./autorun.sh > log/log.txt 2>log/log_error.txt;cd /home/moma/Documents/handle_coupon_data/handle_twitter/;./coupon_auto_run.sh > ./coupon_auto_run_log.txt 2>./coupon_auto_run_error.txt
+
+00 06 * * * export PYTHONIOENCODING=utf8;export PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games;cd /home/moma/Documents/delete_backup;python delete_files.py > ./logs/delete_file_log.txt 2>./logs/delete_file_error.txt

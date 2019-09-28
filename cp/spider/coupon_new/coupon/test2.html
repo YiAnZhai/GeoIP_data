@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link href="/cli/publisher/common/css/bootstrap/css/bootstrap.css" type="text/css" rel="stylesheet" >
+<link href="/cli/publisher/common/css/bootstrap/css/bootstrap_custom.css" type="text/css" rel="stylesheet" >
+<script type="text/javascript" src="/cli/publisher/common/css/bootstrap/js/jquery.js"></script>
+<script type="text/javascript" src="/cli/publisher/common/css/bootstrap/js/bootstrap.js"></script>
+<base href="http://m.merchant.linksynergy.com/fs/cli/en/">
+<script type="text/javascript">
+   $(document).ready(function () {
+                       $("a").tooltip({
+                           'selector': '',
+                             'placement': 'bottom'
+                             });
+    $("a").click(function () {
+        var myid = $(this).attr('id');
+        if(myid =='terms' || myid=='help' || myid=='website') return true;
+        var href = $(this).attr('href');
+        $(this).attr('onclick', "window.location='" + href + "'")
+         .removeAttr('href');
+         top.window.location=''+href+'';
+    });
+
+
+    $("input[type=checkbox]").click(function(){
+      if($(this).is(':checked')){ $(this).attr('checked',false); }
+      else { $(this).attr('checked',true); }
+      $('#myModal').modal('toggle')
+    });
+          
+   });
+</script>
+</head>
+<body>
+    
+<form class="form-horizontal" name="myform" id="myform" method="post"> 
+     <!-- Modal For Email Subscribe/Unsubscribe  -->
+    <div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-header">
+    <button type="button" class="closebuttonalign close" data-dismiss="modal" aria-hidden="true">×</button>
+    </div>
+    <div class="modal-body">
+    <p>Please confirm the update to your email subscription for Photobook Worldwide Sdn Bhd (US).</p>
+    </div>
+    <div class="modal-footer">
+    <button class="btn" data-dismiss="modal" aria-hidden="true">Cancel</button>
+    <button class="btn btn-primary" name="submitbtn" id="submitbtn" value="save">Confirm</button>
+    </div>
+    </div>    
+    
+    
+    
+    
+<div class = "alert-header" >
+<strong>Advertiser Info</strong>
+</div>  
+    <table class="table table-striped">
+        <tr>
+            <td width="20%">Advertiser ID:</td>
+            <td width="80%">39025</td>
+        </tr>
+        <tr>
+            <td>Website:</td>
+            <td><a href="http://www.photobookamerica.com/" target="_new" id="website">http://www.photobookamerica.com/</a></td>
+        </tr>
+       <tr>
+            <td>Categories:</td>
+            <td><a href='http://cli.linksynergy.com/cli/publisher/programs/advertisers.php?cidlist=113_114_115_31113_31114_31115_2041_2042_2043_2578_2580_2582_5113_5114_5115_700113_700114_700115_900113_900114_900115_4100113_4100114_4100115_2520_700005_2040_5005_4100005_5_315_900005&cat=1'>Entertainment</a><br><a href='http://cli.linksynergy.com/cli/publisher/programs/advertisers.php?cidlist=113_2041_5113_31113_4100113&cat=1'>Books/Magazines</a><br><a href='http://cli.linksynergy.com/cli/publisher/programs/advertisers.php?cidlist=126_125_127_31126_31125_31127_2082_2081_2083_2608_2604_2606_5126_5125_5127_700125_700127_700126_900126_900125_900127_4100126_4100125_4100127_700009_900009_9_5009_4100009_2080_2530_319&cat=1'>Gift & Flowers</a><br><a href='http://cli.linksynergy.com/cli/publisher/programs/advertisers.php?cidlist=125_2081_5125_31125_4100125&cat=1'>Gifts</a><br><a href='http://cli.linksynergy.com/cli/publisher/programs/advertisers.php?cidlist=127_2083_5127_31127_4100127&cat=1'>Greeting Cards</a><br><a href='http://cli.linksynergy.com/cli/publisher/programs/advertisers.php?cidlist=147_148_16249_149_146_2152_2153_16251_2154_2151_2656_2658_2662_2654_2660_31147_31148_3116249_31149_31146_5147_5148_16252_5149_5146_700147_700148_700149_716249_700146_900146_900148_916249_900149_900147_4100147_4100148_4116249_4100149_4100146_3116_5016_4100016_16_2150_2550_700016_900016&cat=1'>Internet & Online</a><br><a href='http://cli.linksynergy.com/cli/publisher/programs/advertisers.php?cidlist=146_2151_5146_31146_4100146_700146&cat=1'>Services</a><br><a href='http://cli.linksynergy.com/cli/publisher/programs/advertisers.php?cidlist=210_2191_2686_31210_5210_700210_900210_4100210_700020_2540_20_5020_4100020_2190_3120_900020&cat=1'>Miscellaneous</a><br><a href='http://cli.linksynergy.com/cli/publisher/programs/advertisers.php?cidlist=210_2191_5210_31210_4100210&cat=1'>Other, Other Products/Services</a><br></td>
+       </tr>
+       <tr>
+            <td>Signature Compliant:</td>
+            <td>Yes            <a href="https://rakutenlinkshare.zendesk.com/hc/articles/201358816" id="help" rel="tooltip" target="_new"
+                                 data-original-title="What is Signature Compliant?" >
+                              <img  src="images/common/question_mark.gif" >
+            </a>
+            </td>
+       </tr>
+       <tr>
+            <td>Check Mailed by:</td>
+            <td>LinkShare            <a href="https://rakutenlinkshare.zendesk.com/hc/articles/201092386" id="help"  rel="tooltip" target="_new"
+                                 data-original-title="Click for help" >
+                              <img  src="images/common/question_mark.gif" >
+            </a>
+            </td>
+       </tr>
+       <tr>
+            <td>Deep Linking Enabled:</td>
+            <td>Yes            <a href="https://rakutenlinkshare.zendesk.com/hc/articles/201876496" id="help" rel="tooltip" target="_new"
+                            data-original-title="Click for help" >
+                              <img  src="images/common/question_mark.gif" >
+            </a>
+            </td>
+       </tr>
+       <tr>
+           <td>Terms & Conditions:</td>
+            <td>
+                <a target="_new"  id="terms" href="http://merchant.linksynergy.com/fs/declares/agreement.txt">
+                    View                </a>
+            </td>
+       </tr>
+              <tr>
+            <td>Email Settings:</td>
+            <td>
+                 <label class="checkbox"><input type="checkbox"   checked  name="email_setting" id="email_setting">Photobook Worldwide Sdn Bhd (US)</label>
+                Uncheck to opt out of receiving emails from this advertiser.<br>              
+                <small>*Please note: This setting pertains only to this advertiser and to messages sent via the LinkShare interface.</small>
+            </td>
+        </tr>
+                <tr>
+            <td>Email Address:</td>
+            <td><a href='mailto:affiliates@photobookworldwide.com'>affiliates@photobookworldwide.com</a></td>
+        </tr>
+        <tr>
+            <td>Contact Name:</td>
+            <td>Lindah Innasi</td>
+        </tr>
+        <tr>
+            <td>Contact Title:</td>
+            <td>Sr. Marketing Executive</td>
+        </tr>
+        <tr>
+            <td>Phone Number:</td>
+            <td>+6038008000</td>
+        </tr>
+        <tr>
+            <td>Company Address:</td>
+            <td><address>                  
+                23, Jalan Anggerik Tainia AW, 31/AW, Kota Kemuning <br>Shah Alam, 10 40460<br>Malaysia            </address></td>
+        </tr>
+    </table>
+</form>
+</body>
+</html>

@@ -1,0 +1,192 @@
+twitter_json_todb.py:100: Warning: Invalid utf8 character string: 'F09F9A'
+  self.tweet_cur.executemany(insert_tweet_sql, list_tweet_data)
+twitter_json_todb.py:100: Warning: Invalid utf8 character string: 'F09F98'
+  self.tweet_cur.executemany(insert_tweet_sql, list_tweet_data)
+twitter_json_todb.py:100: Warning: Invalid utf8 character string: 'F09D9F'
+  self.tweet_cur.executemany(insert_tweet_sql, list_tweet_data)
+twitter_json_todb.py:100: Warning: Invalid utf8 character string: 'F09F86'
+  self.tweet_cur.executemany(insert_tweet_sql, list_tweet_data)
+twitter_json_todb.py:100: Warning: Incorrect string value: '\xF0\x9F\x9A\x99 F...' for column 'text' at row 3
+  self.tweet_cur.executemany(insert_tweet_sql, list_tweet_data)
+twitter_json_todb.py:100: Warning: Incorrect string value: '\xF0\x9F\x9A\x99 F...' for column 'text' at row 4
+  self.tweet_cur.executemany(insert_tweet_sql, list_tweet_data)
+twitter_json_todb.py:100: Warning: Incorrect string value: '\xF0\x9F\x9A\xAB\x0A\x0A...' for column 'text' at row 5
+  self.tweet_cur.executemany(insert_tweet_sql, list_tweet_data)
+twitter_json_todb.py:100: Warning: Incorrect string value: '\xF0\x9F\x9A\x97 F...' for column 'text' at row 6
+  self.tweet_cur.executemany(insert_tweet_sql, list_tweet_data)
+twitter_json_todb.py:100: Warning: Incorrect string value: '\xF0\x9F\x98\x8A\xF0\x9F...' for column 'text' at row 8
+  self.tweet_cur.executemany(insert_tweet_sql, list_tweet_data)
+twitter_json_todb.py:100: Warning: Incorrect string value: '\xF0\x9F\x9A\x97 F...' for column 'text' at row 9
+  self.tweet_cur.executemany(insert_tweet_sql, list_tweet_data)
+twitter_json_todb.py:100: Warning: Incorrect string value: '\xF0\x9D\x9F\x93\xF0\x9D...' for column 'text' at row 10
+  self.tweet_cur.executemany(insert_tweet_sql, list_tweet_data)
+twitter_json_todb.py:100: Warning: Incorrect string value: '\xF0\x9F\x98\x8F' for column 'text' at row 12
+  self.tweet_cur.executemany(insert_tweet_sql, list_tweet_data)
+twitter_json_todb.py:100: Warning: Incorrect string value: '\xF0\x9F\x9A\x99 F...' for column 'text' at row 14
+  self.tweet_cur.executemany(insert_tweet_sql, list_tweet_data)
+twitter_json_todb.py:100: Warning: Incorrect string value: '\xF0\x9F\x9A\x99 F...' for column 'text' at row 15
+  self.tweet_cur.executemany(insert_tweet_sql, list_tweet_data)
+twitter_json_todb.py:100: Warning: Incorrect string value: '\xF0\x9F\x86\x95 U...' for column 'text' at row 16
+  self.tweet_cur.executemany(insert_tweet_sql, list_tweet_data)
+twitter_json_todb.py:100: Warning: Incorrect string value: '\xF0\x9F\x9A\x97 F...' for column 'text' at row 17
+  self.tweet_cur.executemany(insert_tweet_sql, list_tweet_data)
+twitter_json_todb.py:100: Warning: Incorrect string value: '\xF0\x9F\x9A\x97 F...' for column 'text' at row 20
+  self.tweet_cur.executemany(insert_tweet_sql, list_tweet_data)
+twitter_json_todb.py:100: Warning: Incorrect string value: '\xF0\x9F\x9A\x97 F...' for column 'text' at row 21
+  self.tweet_cur.executemany(insert_tweet_sql, list_tweet_data)
+twitter_json_todb.py:100: Warning: Incorrect string value: '\xF0\x9F\x98\x8A\xE2\x9D...' for column 'text' at row 22
+  self.tweet_cur.executemany(insert_tweet_sql, list_tweet_data)
+twitter_json_todb.py:100: Warning: Incorrect string value: '\xF0\x9F\x9A\x99 F...' for column 'text' at row 23
+  self.tweet_cur.executemany(insert_tweet_sql, list_tweet_data)
+twitter_json_todb.py:100: Warning: Incorrect string value: '\xF0\x9F\x9A\x99 F...' for column 'text' at row 24
+  self.tweet_cur.executemany(insert_tweet_sql, list_tweet_data)
+twitter_json_todb.py:100: Warning: Incorrect string value: '\xF0\x9F\x86\x95 U...' for column 'text' at row 27
+  self.tweet_cur.executemany(insert_tweet_sql, list_tweet_data)
+twitter_json_todb.py:100: Warning: Incorrect string value: '\xF0\x9F\x9A\x97 F...' for column 'text' at row 28
+  self.tweet_cur.executemany(insert_tweet_sql, list_tweet_data)
+twitter_json_todb.py:100: Warning: Invalid utf8 character string: 'F09F8E'
+  self.tweet_cur.executemany(insert_tweet_sql, list_tweet_data)
+twitter_json_todb.py:100: Warning: Invalid utf8 character string: 'F09F8C'
+  self.tweet_cur.executemany(insert_tweet_sql, list_tweet_data)
+twitter_json_todb.py:100: Warning: Invalid utf8 character string: 'F09F92'
+  self.tweet_cur.executemany(insert_tweet_sql, list_tweet_data)
+twitter_json_todb.py:100: Warning: Invalid utf8 character string: 'F09F91'
+  self.tweet_cur.executemany(insert_tweet_sql, list_tweet_data)
+twitter_json_todb.py:100: Warning: Invalid utf8 character string: 'F09F94'
+  self.tweet_cur.executemany(insert_tweet_sql, list_tweet_data)
+twitter_json_todb.py:100: Warning: Invalid utf8 character string: 'F09F90'
+  self.tweet_cur.executemany(insert_tweet_sql, list_tweet_data)
+twitter_json_todb.py:100: Warning: Invalid utf8 character string: 'F09F8F'
+  self.tweet_cur.executemany(insert_tweet_sql, list_tweet_data)
+twitter_json_todb.py:100: Warning: Invalid utf8 character string: 'F09F99'
+  self.tweet_cur.executemany(insert_tweet_sql, list_tweet_data)
+twitter_json_todb.py:100: Warning: Invalid utf8 character string: 'F09FA4'
+  self.tweet_cur.executemany(insert_tweet_sql, list_tweet_data)
+twitter_json_todb.py:100: Warning: Invalid utf8 character string: 'F09F96'
+  self.tweet_cur.executemany(insert_tweet_sql, list_tweet_data)
+twitter_json_todb.py:100: Warning: Invalid utf8 character string: 'F09FA7'
+  self.tweet_cur.executemany(insert_tweet_sql, list_tweet_data)
+twitter_json_todb.py:103: Warning: Invalid utf8 character string: 'F09F92'
+  self.tweet_cur.executemany(insert_user_sql, list_user_data)
+twitter_json_todb.py:103: Warning: Invalid utf8 character string: 'F09F87'
+  self.tweet_cur.executemany(insert_user_sql, list_user_data)
+twitter_json_todb.py:103: Warning: Invalid utf8 character string: 'F09F8E'
+  self.tweet_cur.executemany(insert_user_sql, list_user_data)
+twitter_json_todb.py:103: Warning: Invalid utf8 character string: 'F09F99'
+  self.tweet_cur.executemany(insert_user_sql, list_user_data)
+twitter_json_todb.py:103: Warning: Invalid utf8 character string: 'F09F8D'
+  self.tweet_cur.executemany(insert_user_sql, list_user_data)
+twitter_json_todb.py:103: Warning: Invalid utf8 character string: 'F09F90'
+  self.tweet_cur.executemany(insert_user_sql, list_user_data)
+twitter_json_todb.py:103: Warning: Invalid utf8 character string: 'F09F91'
+  self.tweet_cur.executemany(insert_user_sql, list_user_data)
+twitter_json_todb.py:103: Warning: Invalid utf8 character string: 'F09F8F'
+  self.tweet_cur.executemany(insert_user_sql, list_user_data)
+twitter_json_todb.py:103: Warning: Invalid utf8 character string: 'F09F98'
+  self.tweet_cur.executemany(insert_user_sql, list_user_data)
+twitter_json_todb.py:103: Warning: Invalid utf8 character string: 'F09FA6'
+  self.tweet_cur.executemany(insert_user_sql, list_user_data)
+twitter_json_todb.py:103: Warning: Incorrect string value: '\xF0\x9F\x92\xAB #...' for column 'description' at row 4
+  self.tweet_cur.executemany(insert_user_sql, list_user_data)
+twitter_json_todb.py:103: Warning: Incorrect string value: '\xF0\x9F\x87\xB5\xF0\x9F...' for column 'description' at row 7
+  self.tweet_cur.executemany(insert_user_sql, list_user_data)
+twitter_json_todb.py:103: Warning: Incorrect string value: '\xF0\x9F\x8E\xA8' for column 'name' at row 8
+  self.tweet_cur.executemany(insert_user_sql, list_user_data)
+twitter_json_todb.py:103: Warning: Incorrect string value: '\xF0\x9F\x99\x8F\xF0\x9F...' for column 'description' at row 8
+  self.tweet_cur.executemany(insert_user_sql, list_user_data)
+twitter_json_todb.py:103: Warning: Incorrect string value: '\xF0\x9F\x8D\x8B' for column 'name' at row 11
+  self.tweet_cur.executemany(insert_user_sql, list_user_data)
+twitter_json_todb.py:103: Warning: Incorrect string value: '\xF0\x9F\x90\x9D |...' for column 'location' at row 11
+  self.tweet_cur.executemany(insert_user_sql, list_user_data)
+twitter_json_todb.py:103: Warning: Incorrect string value: '\xF0\x9F\x91\x87MA...' for column 'description' at row 12
+  self.tweet_cur.executemany(insert_user_sql, list_user_data)
+twitter_json_todb.py:103: Warning: Incorrect string value: '\xF0\x9F\x8D\x92' for column 'name' at row 13
+  self.tweet_cur.executemany(insert_user_sql, list_user_data)
+twitter_json_todb.py:103: Warning: Incorrect string value: '\xF0\x9F\x8F\x88 /...' for column 'description' at row 13
+  self.tweet_cur.executemany(insert_user_sql, list_user_data)
+twitter_json_todb.py:103: Warning: Incorrect string value: '\xF0\x9F\x8F\x9D L...' for column 'location' at row 15
+  self.tweet_cur.executemany(insert_user_sql, list_user_data)
+twitter_json_todb.py:103: Warning: Incorrect string value: '\xF0\x9F\x98\x88\xF0\x9F...' for column 'description' at row 16
+  self.tweet_cur.executemany(insert_user_sql, list_user_data)
+twitter_json_todb.py:103: Warning: Incorrect string value: '\xF0\x9F\x92\x8B' for column 'name' at row 24
+  self.tweet_cur.executemany(insert_user_sql, list_user_data)
+twitter_json_todb.py:103: Warning: Incorrect string value: '\xF0\x9F\x92\x84\xF0\x9F...' for column 'description' at row 24
+  self.tweet_cur.executemany(insert_user_sql, list_user_data)
+twitter_json_todb.py:103: Warning: Incorrect string value: '\xF0\x9F\x92\xA1' for column 'name' at row 33
+  self.tweet_cur.executemany(insert_user_sql, list_user_data)
+twitter_json_todb.py:103: Warning: Incorrect string value: '\xF0\x9F\x92\x95 i...' for column 'description' at row 41
+  self.tweet_cur.executemany(insert_user_sql, list_user_data)
+twitter_json_todb.py:103: Warning: Incorrect string value: '\xF0\x9F\x87\xB8\xF0\x9F...' for column 'name' at row 42
+  self.tweet_cur.executemany(insert_user_sql, list_user_data)
+twitter_json_todb.py:103: Warning: Incorrect string value: '\xF0\x9F\x92\xB0or...' for column 'description' at row 44
+  self.tweet_cur.executemany(insert_user_sql, list_user_data)
+twitter_json_todb.py:103: Warning: Incorrect string value: '\xF0\x9F\xA6\x86' for column 'name' at row 45
+  self.tweet_cur.executemany(insert_user_sql, list_user_data)
+twitter_json_todb.py:103: Warning: Incorrect string value: '\xF0\x9F\x90\xAF |...' for column 'description' at row 45
+  self.tweet_cur.executemany(insert_user_sql, list_user_data)
+twitter_json_todb.py:103: Warning: Incorrect string value: '\xF0\x9F\x8E\x92' for column 'name' at row 49
+  self.tweet_cur.executemany(insert_user_sql, list_user_data)
+twitter_json_todb.py:100: Warning: Invalid utf8 character string: 'F09F95'
+  self.tweet_cur.executemany(insert_tweet_sql, list_tweet_data)
+twitter_json_todb.py:100: Warning: Invalid utf8 character string: 'F09FA6'
+  self.tweet_cur.executemany(insert_tweet_sql, list_tweet_data)
+twitter_json_todb.py:100: Warning: Invalid utf8 character string: 'F09F93'
+  self.tweet_cur.executemany(insert_tweet_sql, list_tweet_data)
+twitter_json_todb.py:100: Warning: Invalid utf8 character string: 'F09FA5'
+  self.tweet_cur.executemany(insert_tweet_sql, list_tweet_data)
+twitter_json_todb.py:103: Warning: Invalid utf8 character string: 'F09F8C'
+  self.tweet_cur.executemany(insert_user_sql, list_user_data)
+twitter_json_todb.py:103: Warning: Invalid utf8 character string: 'F09D93'
+  self.tweet_cur.executemany(insert_user_sql, list_user_data)
+twitter_json_todb.py:103: Warning: Invalid utf8 character string: 'F09D92'
+  self.tweet_cur.executemany(insert_user_sql, list_user_data)
+twitter_json_todb.py:103: Warning: Invalid utf8 character string: 'F09FA7'
+  self.tweet_cur.executemany(insert_user_sql, list_user_data)
+twitter_json_todb.py:103: Warning: Invalid utf8 character string: 'F09D96'
+  self.tweet_cur.executemany(insert_user_sql, list_user_data)
+twitter_json_todb.py:103: Warning: Invalid utf8 character string: 'F09F9B'
+  self.tweet_cur.executemany(insert_user_sql, list_user_data)
+twitter_json_todb.py:103: Warning: Invalid utf8 character string: 'F09FA5'
+  self.tweet_cur.executemany(insert_user_sql, list_user_data)
+twitter_json_todb.py:103: Warning: Invalid utf8 character string: 'F09F9A'
+  self.tweet_cur.executemany(insert_user_sql, list_user_data)
+twitter_json_todb.py:103: Warning: Invalid utf8 character string: 'F09F96'
+  self.tweet_cur.executemany(insert_user_sql, list_user_data)
+twitter_json_todb.py:103: Warning: Invalid utf8 character string: 'F09F94'
+  self.tweet_cur.executemany(insert_user_sql, list_user_data)
+twitter_json_todb.py:103: Warning: Invalid utf8 character string: 'F09F93'
+  self.tweet_cur.executemany(insert_user_sql, list_user_data)
+twitter_json_todb.py:103: Warning: Invalid utf8 character string: 'F09FA4'
+  self.tweet_cur.executemany(insert_user_sql, list_user_data)
+twitter_json_todb.py:100: Warning: Invalid utf8 character string: 'F09F8D'
+  self.tweet_cur.executemany(insert_tweet_sql, list_tweet_data)
+twitter_json_todb.py:103: Warning: Invalid utf8 character string: 'F09D95'
+  self.tweet_cur.executemany(insert_user_sql, list_user_data)
+twitter_json_todb.py:103: Warning: Incorrect string value: '\xF0\x9F\x92\x95' for column 'description' at row 6
+  self.tweet_cur.executemany(insert_user_sql, list_user_data)
+twitter_json_todb.py:103: Warning: Incorrect string value: '\xF0\x9F\xA4\xB7\xE2\x80...' for column 'description' at row 8
+  self.tweet_cur.executemany(insert_user_sql, list_user_data)
+twitter_json_todb.py:103: Warning: Incorrect string value: '\xF0\x9F\x98\x8D||...' for column 'description' at row 14
+  self.tweet_cur.executemany(insert_user_sql, list_user_data)
+twitter_json_todb.py:103: Warning: Incorrect string value: '\xF0\x9F\x92\x96' for column 'description' at row 28
+  self.tweet_cur.executemany(insert_user_sql, list_user_data)
+twitter_json_todb.py:103: Warning: Incorrect string value: '\xF0\x9D\x95\x84\xF0\x9D...' for column 'name' at row 37
+  self.tweet_cur.executemany(insert_user_sql, list_user_data)
+twitter_json_todb.py:103: Warning: Incorrect string value: '\xF0\x9F\x93\x8DPa...' for column 'location' at row 37
+  self.tweet_cur.executemany(insert_user_sql, list_user_data)
+twitter_json_todb.py:103: Warning: Incorrect string value: '\xF0\x9F\x91\x91Bi...' for column 'name' at row 54
+  self.tweet_cur.executemany(insert_user_sql, list_user_data)
+twitter_json_todb.py:103: Warning: Incorrect string value: '\xF0\x9F\xA5\x97 C...' for column 'description' at row 68
+  self.tweet_cur.executemany(insert_user_sql, list_user_data)
+twitter_json_todb.py:103: Warning: Incorrect string value: '\xF0\x9F\x91\xBC\xF0\x9F...' for column 'description' at row 71
+  self.tweet_cur.executemany(insert_user_sql, list_user_data)
+twitter_json_todb.py:103: Warning: Incorrect string value: '\xF0\x9F\x98\xA1\xF0\x9F...' for column 'name' at row 82
+  self.tweet_cur.executemany(insert_user_sql, list_user_data)
+twitter_json_todb.py:103: Warning: Incorrect string value: '\xF0\x9F\x98\x80' for column 'description' at row 87
+  self.tweet_cur.executemany(insert_user_sql, list_user_data)
+twitter_json_todb.py:103: Warning: Incorrect string value: '\xF0\x9F\x90\x9D\xF0\x9F...' for column 'description' at row 90
+  self.tweet_cur.executemany(insert_user_sql, list_user_data)
+twitter_json_todb.py:103: Warning: Incorrect string value: '\xF0\x9F\x92\x99\xE2\x9A...' for column 'description' at row 10
+  self.tweet_cur.executemany(insert_user_sql, list_user_data)
+twitter_json_todb.py:103: Warning: Invalid utf8 character string: 'F09F95'
+  self.tweet_cur.executemany(insert_user_sql, list_user_data)
